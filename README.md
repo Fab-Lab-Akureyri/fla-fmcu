@@ -12,9 +12,7 @@ const char id[]     = ""; 	// your fablabs.io lab id
 
 ## Set SSID & Password
 
-Edit `config.h` with the following lines and edit them accordingly. 
-
-Changes to `config.h` are ignored so you don't accidentally upload your WIFI credentials.
+Create `config.h` file with the following lines and edit them accordingly. 
 
 ```
 #define WLAN_SSID ""    // Your wifi name
