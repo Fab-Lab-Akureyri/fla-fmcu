@@ -22,8 +22,9 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 
-// The things you have to modify
-const char id[]     = "1363"; 	// your fablabs.io lab id 
+// Pinouts according to FabXAIO
+// Modify to your needs
+
 const int buttonPin = D7; 	// the number of the pushbutton pin GPIO 10 ESP32
 const int ledPin    = D6; 	// the number of the LED pin  Internal LED 
 
