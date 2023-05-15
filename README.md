@@ -2,6 +2,8 @@
 
 Clone the repo and update code to your needs.
 
+Perfect with [FABxiao](https://github.com/Fab-Lab-Akureyri/fla-xiao)
+
 ## Set your labs ID, SSID & Password
 
 Create `config.h` file with the following lines and edit them accordingly. 
