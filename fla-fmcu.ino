@@ -59,7 +59,7 @@ void setup()
   Serial.begin(9600);
   delay(100);
 
-  pinMode(buttonPin, INPUT_PULLUP);
+  pinMode(buttonPin, INPUT_PULLDOWN);
   pinMode(ledPin, OUTPUT);
 
 // Connect to WiFi access point.
@@ -111,6 +111,7 @@ void loop()
     // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
     if (buttonState == HIGH) {
       // Now we can publish stuff!
+      
       Serial.print(F("\nSending id "));
       Serial.print(id);
       Serial.print(F(" to fmcu feed..."));
