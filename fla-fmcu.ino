@@ -33,7 +33,7 @@ const int ledPin    = D6; 	// the number of the LED pin  Internal LED
 int buttonState     = 0;  	// variable for reading the pushbutton status
 
 // MQTT Settings
-#define AIO_SERVER      "mosquitto.beachlab.org"
+#define AIO_SERVER      "fmcu.fablabs.io"
 
 // Using port 8883 for MQTTS
 #define AIO_SERVERPORT  1883
